@@ -51,7 +51,7 @@ def cerrar_programa(programa):
 def cliente_enviar_datos(nombre_archivo):
     SEPARATOR = "<SEPARATOR>"
     buffer_size = 4096
-    host = "10.8.0.1"
+    host = "Introducir_IP_o_Dominio"
     port = 443
     tamano_archivo = os.path.getsize("capturas/"+nombre_archivo)
     s = socket.socket()
