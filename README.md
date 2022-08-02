@@ -7,14 +7,14 @@ Asumimos que el atacante tiene la posibilidad de acceder durante un corto period
 Además, se presupone que los trabajadores de dicha oficina utilizan teclados inalámbricos con conexiones BLE para su uso en el día a día. Dichos teclados utilizan conexiones seguras y cifradas, con algoritmos fuertes, por lo que no es posible romper dicho cifrado mediante ataques específicos.
 Por último, se da por hecho que es posible conectar el dispositivo a una red de invitados de la empresa. Aunque podría realizarse este mismo ataque sin dicha conexión de formas más elaboradas.
 
-#Hardware y Software requerido para el ataque
+# Hardware y Software requerido para el ataque
 Para la realización de esta PoC se ha utilizado:
 • Raspberry.
 • MicroBit v1.5 con placa NRF.
 • Script de envío de información script.py
 • Script de obtención de información server.py
 
-#Como usarlo
+# Como usarlo
 Simplemente se debe colocar una Raspberry con una placa Microbit y BtleJack instalado en el dispositivo, en el lugar dónde se quiere obtener la información de conexiones BLE.
 
 Por otro lado debe iniciarse el servidor en un entorno con conexión al exterior, y deben modificarse las partes del código que quedan marcadas dentro de cada script.
