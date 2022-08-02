@@ -1,7 +1,7 @@
 import socket
 import os
 
-SERVER_HOST = "10.8.0.1"
+SERVER_HOST = "Introducir_IP"
 SERVER_PORT = 443
 BUFFER_SIZE = 4096
 SEPARATOR = "<SEPARATOR>"
