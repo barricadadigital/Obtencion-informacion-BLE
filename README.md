@@ -1,5 +1,5 @@
 # Obtencion-informacion-BLE
-La idea de crear esta herramienta surge de una investigación sobre la reutilización de claves de emparejamiento de los dispositivos Bluetooth Low Energy (BLE). Estas claves se llaman Long Term Key (LTK) y son utilizadas por los dispositivos BLE para el cifrado en las comunicaciones. El objetivo de esta PoC es simplemente crear unos scripts basados en cliente-servidor, que permitirían obtener información de dispositivos emparejados para posteriormente, en caso de obtener la LTK poder crackearlos.
+La idea de crear esta herramienta surge de una investigación sobre la reutilización de claves de emparejamiento de los dispositivos Bluetooth Low Energy (BLE) https://eniit.es/hijacking-paired-ble-devices/. Estas claves se llaman Long Term Key (LTK) y son utilizadas por los dispositivos BLE para el cifrado en las comunicaciones. El objetivo de esta PoC es simplemente crear unos scripts basados en cliente-servidor, que permitirían obtener información de dispositivos emparejados para posteriormente, en caso de obtener la LTK poder crackearlos.
 Ver otra herramienta creada durante esta investigación en https://github.com/Casta085/Bluetooth-Low-Energy-Impersonation 
 
 # Modelo de amenaza
